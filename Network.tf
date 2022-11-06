@@ -21,11 +21,6 @@ resource "aws_vpc" "main"  {
     tags = var.common_tags
 }
 
-resource "aws_default_vpc" "default" {
-  tags = {
-    Name = "Default VPC"
-  }
-}
 
 
 resource "aws_internet_gateway" "main_igw" {
