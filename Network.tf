@@ -4,6 +4,7 @@ provider "aws" {
 
 data "aws_availability_zones" "available" {}
 
+/*
 terraform {
   backend "s3" {
     bucket = "nar3kjan-project-terraform-remote-state"
@@ -11,7 +12,7 @@ terraform {
     region = "us-east-1"
   }
 }
-
+*/
 
 #======================================================
 
