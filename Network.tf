@@ -39,7 +39,6 @@ resource "aws_subnet" "public_subnet" {
   }
 }
 
-
 resource "aws_route_table" "public_subnet" {
   vpc_id = aws_vpc.main.id
 
